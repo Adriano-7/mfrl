@@ -1,14 +1,18 @@
-# Topics in Intelligent Systems Assignment
+# Mean Field Multi-Agent Reinforcement Learning
 
+> **Project**
+> <br />
+> Course Unit: [Tópicos em Sistemas Inteligentes](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=542586) (Topics in Intelligent Systems), 4th year
+> <br />
+> Course: [Master in Informatics and Computing Engineering](https://sigarra.up.pt/feup/pt/cur_geral.cur_view?pv_curso_id=23341)
+> <br />
+> Faculty: **FEUP** (Faculty of Engineering of the University of Porto)
+> <br />
+> Project evaluation: **18**/20
+
+---
 ## Project Description
 This project aims at reproducing the results of the paper [**Mean Field Multi-Agent Reinforcement Learning**](https://arxiv.org/pdf/1802.05438.pdf) by Yang et al. (2018). The paper proposes two novel algorithms, MF-Q and MF-AC for multi-agent reinforcement learning in large populations. The algorithms are based on the mean field theory and are designed to scale to large populations of agents. We also integrate the approach introduced in the paper [**VAST: Value Function Factorization with Variable Agent Sub-Teams**](https://openreview.net/pdf?id=hyJKKIhfxxT) by Phan et al. (2021) to train agents in a "Gaussian Squeeze" environment.
-
-## Group K Members
-
-1. Adriano Machado ([up202105352@up.pt](mailto:up202105352@up.pt))
-3. Francisco da Ana ([up202108762@up.pt](mailto:up202108762@up.pt))
-3. João Lopes ([up202402884@up.pt](mailto:up202402884@up.pt))
-4. Tiago Teixeira ([up202403139@up.pt](mailto:up202403139@up.pt))
 
 
 ## Running Instructions
@@ -254,4 +258,13 @@ The closer the OP is to 1, the more orderly the system is.
 ### **Battle Game**
 
 The Battle game in the Open-source MAGent system (Zheng et al., 2018) is a Mixed Cooperative-Competitive scenario with two armies fighting against each other in a grid world, each empowered by a different RL algorithm.  The goal of each army is to get more rewards by collaborating with teammates to destroy all the opponents. Agent can takes actions to either move to or attack nearby grids. Ideally, the agents army should learn to collaborate with teammates to defeat the opponents.
+
+## Tech Stack
+Python, TensorFlow 1.15, PyTorch, MAgent, NumPy, Matplotlib, Scipy
+
+## Team (Group K)
+- **Adriano Machado** (up202105352)
+- **Francisco da Ana** (up202108762)
+- **João Lopes** (up202402884)
+- **Tiago Teixeira** (up202403139)
 
